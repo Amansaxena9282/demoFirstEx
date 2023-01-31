@@ -10,11 +10,13 @@ public class FirstController {
     @GetMapping("/Firstapp")
     public String Firstapp()
     {
+
         return "This is FirstApplication";
     }
     @PostMapping("/postvalues")
     public String postValues(@RequestBody String studentName)
     {
+
         return studentName;
     }
 }
